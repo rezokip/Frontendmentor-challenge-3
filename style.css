@@ -1,0 +1,113 @@
+.attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+
+
+
+*{  
+  margin:0;
+  padding:0;
+  font-family: red hat display;
+  font-size: 16px;
+  color: hsl(224, 23%, 55%);
+  font-weight: 500;
+}
+*, 
+*::before,
+*::after {
+  box-sizing: border-box;}
+
+body{
+  display: grid;
+  place-content: center;
+  min-height: 100vh;
+  background-color: hsl(225, 100%, 94%);
+  
+  
+}
+svg,
+img,
+picture {
+  display: block;
+  max-width: 100%;
+} 
+h2,
+.plan{
+  color: hsl(223, 47%, 23%);
+  
+}
+.title{
+  font-weight: 900;
+  font-size: 1.3rem;
+}
+.plan,
+.change,
+.pay-button,
+.cancel-button{
+font-weight: 700;
+}
+.change{
+  color:hsl(245, 75%, 52%);
+}
+.pay-button{
+color: white;
+background-color: hsl(245, 75%, 52%);
+}
+.cancel-button{
+  border: none;
+  background-color: white;
+}
+
+article{
+Max-width: 21em;
+display: flex;
+flex-direction: column;
+align-items: center;
+border-radius: 20px;
+overflow: hidden;
+background-color: white;
+
+
+}
+.title{
+  margin-top: 1.5em;
+  margin-bottom: 0.8em;
+}
+.information{
+  text-align: center;
+ margin:0px 2em ;
+  line-height: 1.5em;
+}
+.details{
+  margin:1em 0;
+  padding:1em;
+  display: flex;
+  align-items: center;
+  background-color: hsl(225, 100%, 98%);
+  border-radius: 0.5em;
+}
+.payment-details{
+  margin-right: 2.5em;
+  margin-left: 1.5em;
+}
+.pay-button{
+  padding:1em 4.2em;
+  border: none;
+  border-radius: 0.5em;
+  margin-bottom: 1.5em;
+  box-shadow: 0px 10px 3px  hsl(225, 100%, 98%);
+}
+.cancel-button{
+  margin-bottom: 1.5em;
+}
+.change:hover{
+  text-decoration: none;
+}
+.pay-button:hover{
+  opacity: 0.7;
+  cursor: pointer;
+}
+.cancel-button:hover{
+  color: hsl(223, 47%, 23%);
+  cursor: pointer;
+}
+
